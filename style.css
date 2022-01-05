@@ -1,0 +1,99 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul {
+    background-color: tomato;
+    margin-top: 0px;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px 10px
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 40px;
+    color: white;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.header-section {
+    display: flex;
+    clear: both;
+}
+
+.half-width {
+    width: 40%;
+    margin: 100px;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.about-section {
+    display: flex;
+    background-image: url(./resources/back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.recipies{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 0 10px;
+    margin-left: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.card img {
+    width: 100%;
+}
+
+
+.btn {
+    background-color: tomato;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
